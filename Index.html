@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Style.CSS">
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Greeting:</h1>
+    <div id="greeting"></div>
+
+    <canvas id="myChart" width="400" height="400"></canvas>
+
+    <div class="tabs">
+        <button id="topLinksTab">Top Links</button>
+        <button id="recentLinksTab">Recent Links</button>
+    </div>
+
+    <div id="topLinks" class="tabContent"></div>
+    <div id="recentLinks" class="tabContent"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

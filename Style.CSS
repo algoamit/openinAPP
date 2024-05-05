@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chartContainer {
+    margin-top: 20px;
+}
+
+#tabs {
+    margin-top: 20px;
+}
+
+.tabContent {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+
+
